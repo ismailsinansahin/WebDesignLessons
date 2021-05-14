@@ -1,0 +1,24 @@
+div#container{
+	width: 900px;
+	background: #767272;
+	margin: auto;
+	}
+	
+div#banner{
+	width: 860px;
+	height: 150px;
+	background: #F70004;
+	margin: 10px;
+}
+
+div.box{
+	width: 100px;
+	height: 100px;
+	background: rgba(2,0,255,1.00);
+	margin: 10px;
+	float: left;
+}
+
+.clear{clear: both;}
+
+.leftclear{clear: left;}

@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+    <title>Mavi</title>
+    <link rel="short icon" href="images/amblem.png"/>
+    <meta charset="utf-8">
+    <meta name="Description" content="Eğitim Koçluğu ve Eğitim Planlama Merkezi">
+    <meta name="Keywords" content="Eğitim Koçluğu, AHOB, VIP Talkers, Matematik Dünyası">
+    <style type="text/css">
+
+        div#container{
+            background-color: gainsboro;
+            width: 900px;
+            height: 2000px;
+            margin: auto;
+            position: relative;
+        }
+
+        div.box{
+            width: 100px;
+            height: 100px;
+            position: absolute;/*Birbirlerinden bağımsız konumlanıyorlar */
+        }
+
+        div#box1{
+            background-color: #F70004;
+            top: 50px;
+            right: 50px;
+        }
+
+        div#box2{
+            background-color: #17F90D;
+            left: 50px;
+            top: 0px;
+            position: sticky;
+        }
+
+        div#box3{
+            background-color: #704DFD;
+            right: 50px;
+            bottom: 100px;
+        }
+
+        div#box4{
+            background-color: #000;;
+            left: 50px;
+            top: 1900px;
+        }
+
+        div#box5{
+            background-color: aqua;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        div#box6{
+            background-color: gold;
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            z-index: 20;
+            position: fixed;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div id="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box" id="box5">asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf</div>
+    <div class="box" id="box6"></div>
+</div>
+
+</body>
+
+</html>
